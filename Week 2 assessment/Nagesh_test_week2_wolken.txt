@@ -1,0 +1,97 @@
+Answers for week 2
+
+1> Both trainer are different
+
+2>Exceptions are thrown by the JVM at runtime and it causes the execution of the program to end abruptly.
+Exception handling refers to the set of tasks a developer does in order to ensure the program does not end abruptly.
+Example: NullPointerException, ArrayIndexOutOfBounds 
+Exceptions can be handled using a Try Catch block or using the 'throw' keyword at function signature which causes the JVM to terminate the program.
+
+
+
+3> Custom exceptions are user defined exceptions which are specific to user needs. Custom exceptions can be thrown in the same way as exceptions.
+All custom exceptions must extend the class Exception
+
+Syntax: class CustomExceptionName extends Exception{
+	// code 
+
+}
+
+
+4> Encapsulation refers to the process of hiding data from other classes. Encapsulation can also be thought of as a way to bind specific data to specific class.
+Encapsulation is generally achieved with the help of 'private' keyword and can be accessed by other classes with the help of getters and setters.
+private data members
+default constructors
+public getter setters
+
+Getter syntax:
+
+public returnType getDataName(){
+	return DataName;
+}
+
+
+
+Setter syntax:
+
+public void setDataName(dataName){
+	this.dataName = dataName;
+}
+
+5> Polymorphism refers to making the function behave differently upon encountering different inputs. It is used to increase code readability.
+Polymorphism can be broadly divided into 2 kinds:
+1) Compile time/ overloading
+2) Run time / Overriding
+
+Overloading can further be classified into operator overloading and function overloading.
+
+6> Overloading can be achieved in functions having the same name but different signatures. Signatures refer to the number of parameters, type of parameters and order of parameters.
+
+Example:
+	class threading{
+
+		public static void main(String a[]){
+		Object obj = new Object();
+		obj.wait();
+		obj.wait(100);
+// java provides an inbuilt method wait() and wait(int ms) for all objects. 
+}
+}
+
+7> Overriding is a method of invoking different implementations of functions having same name and same method signatures.
+The runtime implementation is different from what the compiler points to at compile time.
+
+Example:
+	class OverridingExample{
+		public static void main(String a[]){
+			
+		//toString is a method already defined by java in Object class. it can be overriden to suit our needs.
+
+
+		@Override
+		public String toString(){
+			return "This is our implementation";
+		}
+}
+}
+
+8> args
+
+9> program throws an error
+	Main method not found error.
+
+10> X-workz provide java Enterprise application training
+
+11> Abstraction refers to hiding the implementation details from the end user and only providing the functionality to them through the help of a media called interface.
+	Abstraction can be achieved in 2 ways:
+	* Interfaces
+	* Abstract classes
+
+	100% abstraction can be achieved only with the help of interfaces as abstraction classes can also contain concrete methods.
+
+12> values can be initialised in 2 ways:
+	* Assigning values directly at compile time
+	* Taking values from user at runtime
+
+
+
