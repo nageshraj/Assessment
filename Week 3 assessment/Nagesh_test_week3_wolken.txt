@@ -1,0 +1,57 @@
+1) DB stands for DataBase. DataBase refers to a collection of data/information such that it is arranged in the form of rows and columns.
+	The biggest advantage of using database is that data can be stored permanently which is not possible in the case of java program variables.
+
+2) DBMS stands for DataBase Management System. It is the set of software programs which manages the DB and helps us perform CRUD operations.
+	RDBMS stands for Relational DataBase Management System. it is a type of RDBMS which is used when tables have relationships with each other.
+The biggest difference between DBMS and RDBMS is how data is stored.
+
+Example: DBMS: Any file which holds data
+	 RDBMS: Data is stored in the form of rows and colums
+
+3) SQL is a language used specifically while dealing with databases. It stands for Structured Query Language.
+We use SQL to perform CRUD operations.
+
+4) JDBC stands for Java DataBase Connectivity. It is an API which allows java programs to interact with DataBase Server and perform the CRUD operations which would otherwise be done on server.
+JDBC has 5 steps:
+
+* load the driver and register it. Driver is provided by DB
+* Create connection with DB
+* Create a platform
+* Use platform to execute queries and store in ResultSet
+* close all connections
+
+5) OOPS stand for Object Oriented programming system
+OOPS is a programming paradigm which considers everything to be a class and object.
+
+The fundamental concepts of OOPS are:
+*Abstraction - Abstraction refers to hiding the implementation details from the end user and only providing the functionality to them through the help of a media called interface.
+	It can be achieved in 2 ways:
+	* Interfaces
+	* Abstract classes
+Example: Any Multiplayer played. The user is unaware of how the netcode works and can control characters with the help of predefined interfaces
+
+
+*Inheritance- Method by which a class can acquire properties of another class.
+Example: In case of Games, A character can use different equipment with similar properties. Eg: Different rifles and all rifles have same properties with different values.
+
+
+*Polymorphism-  Polymorphism refers to making the function behave differently upon encountering different inputs.
+Example: all objects have a built in method wait() and wait(int ms). 
+
+*Encapsulation- Data and methods of similar kind are bound together into a single unit. It can be achieved with the help of 'private' and 'protected' keywords
+Example:  Getters and Setters
+
+
+11) select * from movie_member left outer join movie_details on movie_member.id= movie_details.id ;
+
+12) select * from movie_member right join movie_details on movie_member.id= movie_details.id ;
+
+13) select * from movie_member where title="3 idiots";
+
+14) select * from movie_member where title="3 idiots";
+
+15) select * from movie_member inner join movie_details on movie_member.id= movie_details.id ;
+
+16) select * from movie_member right inner join movie_details on movie_member.id= movie_details.id ;
+
+17) 
